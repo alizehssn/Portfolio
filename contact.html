@@ -1,77 +1,169 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alize Hassan</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <!--Nav Bar -->
-    <header>
-        <nav class="navbar fixed-top navbar-dark bg-info">
-            <a class="navbar-brand" href="#">Alize Hassan</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">Contact Me<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
+
+    <!-- START: header -->
+
+    <div class="probootstrap-loader"></div>
+
+    <header role="banner" class="probootstrap-header">
+        <div class="container">
+            <a href="index.html" class="probootstrap-logo">Alize Hassan</a>
+
+            <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+            <div class="mobile-menu-overlay"></div>
+
+            <nav role="navigation" class="probootstrap-nav hidden-xs">
+                <ul class="probootstrap-main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
-        </nav>
-
-
+                <ul class="probootstrap-right-nav hidden-xs">
+                    <li><a href="https://www.linkedin.com/in/alize-hassan/"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://github.com/alizehssn"><i class="fa fa-github"></i></a></li>
+                </ul>
+                <div class="extra-text visible-xs">
+                    <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+                    <li><a href="https://www.linkedin.com/in/alize-hassan/"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://github.com/alizehssn"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
-
-    <!--End Nav Bar-->
-    <!--Contact Form Main-->
-    <div class="contact-form">
-        <h1>Contact Me!</h1>
-        <form>
-            <div class="form-row">
-                <div class="col">
-                    <label for="Firstname">First Name</label>
-                    <input type="text" class="form-control" id="Firstname" placeholder="Mando">
+    <!-- END: header -->
+    <section class="probootstrap-slider flexslider">
+        <ul class="slides">
+            <li style="background-image: url(img/slider_1.jpg);" class="overlay2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="slides-text probootstrap-animate" data-animate-effect="fadeIn">
+                                <h2>Contact Me</h2>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Lorian">
+            </li>
+        </ul>
+    </section>
+    <!-- END: slider  -->
+
+    <section class="probootstrap-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 probootstrap-animate overlap">
+                    <form action="#" method="post" class="probootstrap-form probootstrap-form-box mb60">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" class="form-control" id="fname" name="fname">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" class="form-control" id="lname" name="lname">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea cols="30" rows="10" class="form-control" id="message" name="message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn btn-primary" id="submit" name="submit" value="Send Message">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-push-1 probootstrap-animate">
+                    <h4>Contact Details</h4>
+                    <ul class="with-icon colored">
+                        <li><i class="icon-mail"></i><span>alizehssn@gmail.com</span></li>
+                        <li><i class="icon-phone2"></i><span>+1832-603-2000</span></li>
+                    </ul>
+                    <p>
+                        <a href="resume.pdf"></a>View Resume</a>
+                    </p>
                 </div>
             </div>
-            <div class="form-group">
-                <label for="inputAddress">Email Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="babyyoda@mando.com">
+        </div>
+    </section>
+    <!-- END section -->
+
+    <!--Footer-->
+    <footer class="probootstrap-footer probootstrap-bg">
+        <div class="container">
+            <div class="row mb60">
+                <div class="col-md-3">
+                    <div class="probootstrap-footer-widget probootstrap-link-wrap">
+                        <h4 class="heading">Quick Links</h4>
+                        <ul class="stack-link">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="row copyright">
+                <div class="col-md-6">
+                    <div class="probootstrap-footer-widget">
+                        <p>&copy; 2017 <a href="https://uicookies.com/">uiCookies:Virb</a>. Designed by <a href="https://uicookies.com/">uicookies.com</a> <br> Demo Photos from <a href="https://unsplash.com/">Unsplash</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="probootstrap-footer-widget right">
+                        <ul class="probootstrap-social">
+                            <li><a href="https://www.linkedin.com/in/alize-hassan/"><i class="fa fa-linkedin-square"></i></a></li>
+                            <li><a href="https://github.com/alizehssn"><i class="fa fa-github"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </form>
+        </div>
+    </footer>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    </div>
 
 
+    <script src="js/scripts.min.js"></script>
+    <script src="js/main.min.js"></script>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+
+    <script src="js/custom.js"></script>
+
 </body>
 
 </html>

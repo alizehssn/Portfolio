@@ -2,110 +2,150 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>uiCookies:Virb &mdash; Free Bootstrap Theme, Free Responsive Bootstrap Website Template</title>
+    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-        
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
+
 
     <title>Alize Hassan</title>
 </head>
 
 <body>
-    <!--Nav Bar -->
-    <header>
-        <nav class="navbar fixed-top navbar-dark bg-info">
-            <a class="navbar-brand" href="#">Alize Hassan</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Me</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <!-- START: header -->
 
-    <!--End Nav Bar-->
-    <!--Content Container-->
-    <main role="main">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4">Portfolio</h1>
-            </div>
+    <div class="probootstrap-loader"></div>
+
+    <header role="banner" class="probootstrap-header">
+        <div class="container">
+            <a href="index.html" class="probootstrap-logo">Alize Hassan</a>
+
+            <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
+            <div class="mobile-menu-overlay"></div>
+
+            <nav role="navigation" class="probootstrap-nav hidden-xs">
+                <ul class="probootstrap-main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="probootstrap-right-nav hidden-xs">
+                    <li><a href="https://www.linkedin.com/in/alize-hassan/"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://github.com/alizehssn"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <div class="extra-text visible-xs">
+                    <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+                    <h5>Address</h5>
+                    <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                    <h5>Connect</h5>
+                    <ul class="social-buttons">
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                        <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
         </div>
+    </header>
+    <!--Content Container-->
+    <section class="probootstrap-section">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2>Weather Dashboard</h2>
-                    <img src="weatherappimg.png" alt="weatherappImg" id="weatherImg">
-                    <p class="description"> Utilizing the Open Weather API, the application generates the current weather as well as the 5 day forecast for the city the user inputs.
-                    </p>
-                    <a class="github-link " href="https://alizehssn.github.io/fuzzy-octo-enigma/">View</a>
-                    <a href="https://github.com/alizehssn/fuzzy-octo-enigma">Github</a>
+                <div class="col-md-12 text-center section-heading probootstrap-animate">
+                    <h2>Check our selected works over the past 10 years.</h2>
                 </div>
-                <div class=" col-md-4 ">
-                    <h2>Work Day Scheduler</h2>
-                    <img src="schedulerimg.png " alt="scheduleImg " id="workdayImg ">
-                    <p class="description "> The application allows the user to add events and event details within the scheduler time table. The events are color-coded according to whether the event is in the past,present, or future and then this data is saved to local storage.
-                    </p>
-                    <a class="github-link " href="https://alizehssn.github.io/glowing-octo-succotash/ ">View 
-                    </a>
-                    <a href="https://github.com/alizehssn/glowing-octo-succotash">Github</a>
-                </div>
-                <div class="col-md-4 ">
-                    <h2>Vegan Police Application</h2>
-                    <img src="veganpolice.png " alt="indexImg " id="veganImg ">
-                    <p class="description ">
-                        Utilizing third-party API's the application allows a user to search for food reciepes, products, and cosemetics that meet their dietary and allergenic restrictions.
-                    </p>
-                    <a class="github-link " href=" https://alizehssn.github.io/scaling-octo-happiness/ ">View
-                    </a>
-                    <a href="https://github.com/alizehssn/scaling-octo-happiness">Github</a>
-                </div>
-
             </div>
-        </div>
-    </main>
-    <!--Footer-->
-    <footer class="container "></footer>
+            <div class="row">
+
+                <div class="col-md-4 probootstrap-animate">
+                    <div class="probootstrap-card with-hover">
+                        <div class="probootstrap-card-media">
+                            <a href="single-page.html"><img src="weatherappimg.png" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+                        </div>
+                        <div class="probootstrap-card-text">
+                            <h2 class="probootstrap-card-heading mb0">Weather Dashboard</h2>
+                            <p class="category">Utilizing the Open Weather API, the application generates the current weather as well as the 5 day forecast for the city the user inputs.</p>
+                            <p><a href="https://alizehssn.github.io/fuzzy-octo-enigma/">View Application</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate">
+                    <div class="probootstrap-card with-hover">
+                        <div class="probootstrap-card-media">
+                            <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+                        </div>
+                        <div class="probootstrap-card-text">
+                            <h2 class="probootstrap-card-heading mb0">Docket Master</h2>
+                            <p class="category">Collaborative Project 2</p>
+                            <p><a href=" https://pure-atoll-36836.herokuapp.com/">View Application</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 probootstrap-animate">
+                    <div class="probootstrap-card with-hover">
+                        <div class="probootstrap-card-media">
+                            <a href="single-page.html"><img src="veganpolice.png" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
+                        </div>
+                        <div class="probootstrap-card-text">
+                            <h2 class="probootstrap-card-heading mb0">Vegan Police Application</h2>
+                            <p class="category">Project 1 </p>
+                            <p><a href="https://alizehssn.github.io/scaling-octo-happiness/ ">View Application</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Footer-->
+                <footer class="probootstrap-footer probootstrap-bg">
+                    <div class="container">
+                        <div class="row copyright">
+                            <div class="col-md-6">
+                                <div class="probootstrap-footer-widget">
+                                    <p>&copy; 2017 <a href="https://uicookies.com/">uiCookies:Virb</a>. Designed by <a href="https://uicookies.com/">uicookies.com</a> <br> Demo Photos from <a href="https://unsplash.com/">Unsplash</a></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="probootstrap-footer-widget right">
+                                    <ul class="probootstrap-social">
+                                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                        <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <div class="gototop js-top">
+                    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+                </div>
+
+
+                <script src="js/scripts.min.js"></script>
+                <script src="js/main.min.js"></script>
+                <script src="js/custom.js"></script>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
 </body>
 
 </html>
